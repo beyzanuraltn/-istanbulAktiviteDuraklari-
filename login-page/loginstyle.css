@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    padding-top: 0px;
+}
+
+.left {
+    left: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    right: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow-container {
+    position:relative;
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.entry-container {
+    text-align: center;
+    position: relative;
+}
+
+.entry-container h1 {
+    margin-top: 0px;
+    width: 100px;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: rgb(255, 156, 156);
+}
+
+.entry-container p {
+  margin-top: 10px;
+    font-size: 1.5em;
+    margin-bottom: 100px;
+    color: rgba(200, 205, 255, 0.986);
+}
+
+.entry-container button {
+    padding: 15px 50px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: rgb(53, 87, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entry-container button:hover {
+    background-color: #bb0000;
+}
+button i {
+    color: #000000;
+    margin-left: 8px; 
+    font-size: 1.2em;  /* İkon boyutunu  */
+    vertical-align: middle; /* İkonun metinle hizalanması */
+}
+

@@ -1,0 +1,1157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İBB ÇAMLICA SOSYAL TESİSLERİ",
+        "category": "SOSYAL TESİS",
+        "description": "Çamlıca Tepesi'nde konforlu bir dinlenme ve sosyal etkinlik alanı.",
+        "link": "https://tesislerimiz.ibb.istanbul/tesislerimiz-3/",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0785, 41.0262]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İBB KÜÇÜKÇEKMECE SOSYAL TESİSLERİ",
+        "category": "SOSYAL TESİS",
+        "description": "Küçükçekmece'de geniş bir yeşil alan ve sosyal etkinlik alanları sunar.",
+        "link": "https://tesislerimiz.ibb.istanbul/tesislerimiz-3/",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Küçükçekmece/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7806, 41.0048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İBB FLORYA SOSYAL TESİSLERİ",
+        "category": "SOSYAL TESİS",
+        "description": "Florya'da deniz manzaralı sosyal tesisler ve dinlenme alanları.",
+        "link": "https://tesislerimiz.ibb.istanbul/tesislerimiz-3/",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Bakırköy/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8534, 41.0032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İBB ATATÜRK ARBORETUMU",
+        "category": "SOSYAL TESİS",
+        "description": "Doğa severler için geniş bir bitki koleksiyonu ve dinlenme alanları.",
+        "link": "https://tesislerimiz.ibb.istanbul/tesislerimiz-3/",
+        "entry_fee": "ücretli",
+        "suitability": "Aileler için uygun",
+        "location": "Sarıyer/İstanbul",
+            "entry_fee_adult":"30 TL",
+       "entry_fee_student":"10 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9691, 41.141]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GÜLHANE PARKI",
+        "category": "PARK",
+        "description": "Renkli çiçekleriyle görsel şölen yaratan Gülhane Parkı kuş cıvıltılarıyla içinizi ferahlatacak.",
+        "link": "https://g.co/kgs/Yu5rc3c",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Fatih/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9784, 41.0128]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EMİRGAN KORUSU",
+        "category": "KORU",
+        "description": "Emirgan'da doğal güzellikler ve yürüyüş yolları sunan bir koru.(Not:Arabayla girişlerde 30TL otopark ücreti bulunmaktadır.)",
+        "link": "https://g.co/kgs/VwwBCwK",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Sarıyer/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0465, 41.107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YILDIZ PARKI",
+        "category": "PARK",
+        "description": "Büyük bir yeşil alan ve çeşitli aktiviteler sunan park.",
+        "link": "https://g.co/kgs/ek2iLo7",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Beşiktaş/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0174, 41.044]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HARBiYE CEMIL TOPUZLU AÇIK HAVA SAHNESI",
+        "category": "KONSER MERKEZİ",
+        "description": "Açık hava konserlerinin yapıldığı tarihi bir mekan.",
+        "link": "https://g.co/kgs/8rVpwTM",
+        "entry_fee": "ücretli gösteriler",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Şişli/İstanbul",
+          "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9854, 41.0445]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ŞEHİR TİYATROLARI HARBiYE MUHSİN ERTUĞRUL SAHNESİ",
+        "category": "TİYATRO MERKEZİ",
+        "description": "Şehir tiyatrolarının sahne aldığı önemli bir tiyatro merkezi.(Not:Fiyat bilgileri değişkenlik göstermektedir daha fazla bilgi için web sayfalarını ziyaret edin.)",
+        "link": "https://g.co/kgs/N4Mi8An",
+        "entry_fee": "ücretli gösteriler",
+        "suitability": "Aileler için uygun",
+        "location": "Şişli/İstanbul",
+            "entry_fee_adult":"50-75 TL",
+       "entry_fee_student":"25-60 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9882, 41.0441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KADIKÖY HALK EĞİTİM MERKEZI",
+        "category": "TİYATRO MERKEZİ",
+        "description": "Kadıköy'de çeşitli kültürel ve sanatsal etkinliklerin yapıldığı merkez.",
+        "link": "https://g.co/kgs/3k8Exqe",
+        "entry_fee": "ücretli gösteriler",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Kadıköy/İstanbul",
+          "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0324, 40.9883]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ZORLU PERFORMANS SANATLARI MERKEZI",
+        "category": "KONSER MERKEZİ",
+        "description": "Yüksek kaliteli performanslar ve konserler sunan modern bir merkez.",
+        "link": "https://www.zorlupsm.com/",
+        "entry_fee": "ücretli gösteriler",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Beşiktaş/İstanbul",
+          "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0092, 41.0672]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BOSTANCI GÖSTERİ MERKEZI",
+        "category": "KONSER MERKEZİ",
+        "description": "Bostancı'da çeşitli konser ve gösterilere ev sahipliği yapan mekan.",
+        "link": "https://g.co/kgs/XocVhDD",
+        "entry_fee": "ücretli gösteriler",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Kadıköy/İstanbul",
+          "entry_fee_adult":"Etkinliğe bağlı olarak değişmektedir.",
+       "entry_fee_student":"Etkinliğe bağlı olarak değişmektedir."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0995, 40.9561]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VOLKSWAGEN ARENA",
+        "category": "KONSER MERKEZİ",
+        "description": "Büyük konserler ve etkinlikler için kullanılan geniş bir alan.",
+        "link": "https://www.vwarena.com/",
+        "entry_fee": "ücretli gösteriler",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Sarıyer/İstanbul",
+          "entry_fee_adult":"-",
+       "entry_fee_student":"Etkinliğe bağlı olarak değişmektedir."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0118, 41.1012]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İSTANBUL ARKEOLOJİ MÜZESİ",
+        "category": "MÜZE",
+        "description": "Tarihi eserlerin sergilendiği önemli bir müze.",
+        "link": "https://muze.gov.tr/muze-detay?SectionId=IAR01&DistId=IAR",
+        "entry_fee": "ücretli",
+        "suitability": "Aileler için uygun",
+        "location": "Fatih/İstanbul", 
+             "entry_fee_adult":"340 TL",
+       "entry_fee_student":"Müze kat ile ücretsiz."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9827, 41.0116]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BELGRAD ORMANI",
+        "category": "YEŞİL ALAN",
+        "description": "İstanbul'un en büyük ve doğal yeşil alanlarından biri.(Not:Arabalı girişlerde 35TL otopark ücreti alınmaktadır.)",
+        "link": "https://g.co/kgs/MvXqq4E",
+        "entry_fee": "ücretli",
+        "suitability": "Aileler için uygun",
+        "location": "Sarıyer/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9899, 41.1802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TOPKAPI SARAYI MÜZESİ",
+        "category": "MÜZE",
+        "description": "Osmanlı İmparatorluğu'nun saray yaşamını sergileyen tarihi müze.",
+        "link": "https://g.co/kgs/41E2pKW",
+        "entry_fee": "ücretli",
+        "suitability": "Aileler için uygun",
+        "location": "Fatih/İstanbul",
+            "entry_fee_adult":"250 TL",
+       "entry_fee_student":"75 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.981, 41.0085]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İSTANBUL MODERN SANAT MÜZESİ",
+        "category": "MÜZE",
+        "description": "Modern ve çağdaş sanat koleksiyonlarını içeren bir müze.",
+        "link": "https://g.co/kgs/qRwJSYt",
+        "entry_fee": "ücretli",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Beyoğlu/İstanbul",
+            "entry_fee_adult":"230 TL",
+       "entry_fee_student":"150 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9737, 41.03]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ÇUBUKLU SİLOLAR",
+        "category": "MÜZE",
+        "description": "Dijital Sanatlar Müzesi.",
+        "link": "https://kultursanat.istanbul/mekanlarimiz/cubuklu-silolar",
+        "entry_fee": "ücretsiz",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Beykoz/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.083191, 41.108663]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ANKARA ÜÇGENİ PARKI",
+        "category": "PARK",
+        "description": "İstanbul'un merkezi bölgelerinden birinde geniş bir park.",
+        "link": "https://www.google.com/search?q=ankara+%C3%BC%C3%A7geni+park%C4%B1+istanbul&sca_esv=52789fae7ff1ed0c&sca_upv=1&biw=1366&bih=633&ei=gzKnZti_A6WH7NYPl4OMiAY&oq=ankara+%C3%BC%C3%A7geni+park%C4%B1+i&gs_lp=Egxnd3Mtd2l6LXNlcnAiGGFua2FyYSDDvMOnZ2VuaSBwYXJrxLEgaSoCCAIyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSLknUPsMWLkPcAF4AZABAJgB0AGgAd0CqgEFMC4xLjG4AQHIAQD4AQGYAgOgAvICwgIKEAAYsAMY1gQYR5gDAIgGAZAGCJIHBTEuMS4xoAfjBw&sclient=gws-wiz-serp",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0214, 41.0063]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KISIKLI MEHMET AKİF ERSOY PARKI",
+        "category": "PARK",
+        "description": "Mehmet Akif Ersoy'un adını taşıyan geniş bir park.",
+        "link": "https://www.google.com/search?q=K%C4%B1s%C4%B1kl%C4%B1%2C+Mehmet+Akif+Ersoy+Park%C4%B1%2C+K%C4%B1s%C4%B1kl%C4%B1+B%C3%BCy%C3%BCk+%C3%87aml%C4%B1ca+Caddesi%2C+%C3%9Csk%C3%BCdar%2F%C4%B0stanbul&sca_esv=52789fae7ff1ed0c&sca_upv=1&biw=1366&bih=633&ei=-TOnZsOQMK-Qxc8Pp5HeiQI&oq=K%C4%B1s%C4%B1kl%C4%B1+mehme&gs_lp=Egxnd3Mtd2l6LXNlcnAiEEvEsXPEsWtsxLEgbWVobWUqAggCMgsQLhiABBjHARivATICECYyAhAmMgIQJjICECYyAhAmMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiiBBiJBUiAS1CmD1i_FHAGeACQAQCYAbcCoAG8AqoBBTEuMy0xuAEDyAEA-AEBmAIJoALnMsICChAAGLADGNYEGEfCAg4QLhiABBjHARiOBRivAcICBRAAGIAEwgIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQGYAwCIBgGQBgi6BgYIARABGBSSBwc3LjgtMS4xoAfCEQ&sclient=gws-wiz-serp",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0631, 41.0226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İSTANBUL KENT ÜNİVERSİTESİ MESUT YILMAZ HATIRA ORMANI",
+        "category": "YEŞİL ALAN",
+        "description": "İstanbul Kent Üniversitesi'ne ait hatıra ormanı.",
+        "link": "https://www.google.com/search?sca_esv=52789fae7ff1ed0c&sca_upv=1&q=%C4%B0STANBUL+KENT+%C3%9CN%C4%B0VERS%C4%B0TES%C4%B0+MESUT+YILMAZ+HATIRA+ORMANI&source=lnms&fbs=AEQNm0CgMcZ11KbHg1uunEmuo39LYaLxf_n_v5Qu9vkTINnKPFxIgupDJiyYgOOMj7PxlorLHmd2DHeNseH1IrAilxCXWGwfYa-1oUEcXAzbWOrYal7VGJVYcQsEC9Ta5ZXTp5qnAaMaRq_slQORSFCu2l1mYCXdOmsVAr9gDS3sBD3E1iXftbICrLpCujjTMelXfaUvWb2Fjj0K20oR9DspdaCmyobvvQ&sa=X&ved=2ahUKEwiW5oyw0cuHAxWVSvEDHcXaFxgQ0pQJegQIExAB&biw=1366&bih=633&dpr=1",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.078, 41.066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ÇUBUKLU KORUSU",
+        "category": "KORU",
+        "description": "Doğal güzellikler ve geniş yeşil alanlar sunan bir koru.",
+        "link": "https://www.google.com/search?sca_esv=52789fae7ff1ed0c&sca_upv=1&q=%C3%A7ubuklu+korusu&udm=2&fbs=AEQNm0BnX8ihlrJkkbXVELkPLWXUhMxGhLBpZW2YZiZZ8GcJPuSvfcSI1D_8gl-dTb1OpWfKFwWFbKpLaXKQkXs_WShLJKDIBsiDoIFBN8cExglLDUnA1JeFzjgmWqm9J4csSLsLgHbR_j8xT6VzoQN3x9SpaHgUYb1MpqQXZIHk-3wYvIrVlBzKSNJ1XACf8OX3STBrniT824tSVee7uJ7hHvGwGmAv25QYtWfu5IExAP2m7eDnjCY&sa=X&ved=2ahUKEwiey6TL0cuHAxWDRvEDHQTiBWUQtKgLegQIFhAB&biw=1366&bih=633&dpr=1",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Beykoz/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0654, 41.0978]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GÜLHANE KORUSU",
+        "category": "KORU",
+        "description": "Gülhane Parkı'nın devamı niteliğinde bir koru.",
+        "link": "https://www.google.com/search?sca_esv=52789fae7ff1ed0c&sca_upv=1&q=g%C3%BClhane+korusu&source=lnms&fbs=AEQNm0CgMcZ11KbHg1uunEmuo39LYaLxf_n_v5Qu9vkTINnKPFxIgupDJiyYgOOMj7PxlorLHmd2DHeNseH1IrAilxCXhhqaxAKOm1x28b4XF7ZKeUXxY7vd_k8moTO8bljh2ze2_CXj-ql7jFMbnzc5gsyF1u3ZVITowsxddd3kGcFRjhB4QnRL9vg4ueDAb77HQX0W8D5k&sa=X&ved=2ahUKEwjuwIfr0cuHAxX-QfEDHYzrKfoQ0pQJegQIExAB&biw=1366&bih=633&dpr=1",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Fatih/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9809, 41.0142]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BÜYÜK ÇAMLICA KORUSU",
+        "category": "KORU",
+        "description": "Çamlıca Tepesi'nin büyük korusu.",
+        "link": "https://g.co/kgs/7fnRQQ1",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0697, 41.0259]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KÜÇÜK ÇAMLICA KORUSU",
+        "category": "KORU",
+        "description": "Çamlıca Tepesi'nde bulunan küçük koru.",
+        "link": "https://g.co/kgs/D2wrMsU",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0639, 41.0169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FETHİ PAŞA KORUSU",
+        "category": "KORU",
+        "description": "İstanbul'un çeşitli doğal güzellikleri sunan korusu.",
+        "link": "https://g.co/kgs/WQu87ej",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.026, 41.0316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HAREM KORUSU",
+        "category": "KORU",
+        "description": "Harem'de bulunan doğal bir koru.",
+        "link": "https://g.co/kgs/AotEWr9",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0125, 41.0114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YILDIZ KORUSU",
+        "category": "KORU",
+        "description": "Yıldız Parkı'na bağlı doğal bir koru.",
+        "link": "https://g.co/kgs/vjRVszr",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Beşiktaş/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0149, 41.0491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BEYOĞLU SAHAFLAR ÇARŞISI",
+        "category": "TARİHİ ÇARŞI",
+        "description": "Beyoğlu'nda kitap ve antika satan sahafların bulunduğu çarşı.",
+        "link": "https://g.co/kgs/mu2d7qi",
+        "entry_fee": "ücretsiz",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Beyoğlu/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.976, 41.0336]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MISIR ÇARŞISI",
+        "category": "TARİHİ ÇARŞI",
+        "description": "Baharat ve çeşitli ürünlerin satıldığı tarihi çarşı.",
+        "link": "https://g.co/kgs/CzJvqDz",
+        "entry_fee": "ücretsiz",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Fatih/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9759, 41.0101]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KAPALIÇARŞI",
+        "category": "TARİHİ ÇARŞI",
+        "description": "İstanbul'un en eski ve ünlü kapalı çarşısı.",
+        "link": "https://g.co/kgs/XhhJE9K",
+        "entry_fee": "ücretsiz",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Fatih/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9744, 41.0104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAHAFLAR ÇARŞISI",
+        "category": "TARİHİ ÇARŞI",
+        "description": "Kitap severler için özel bir çarşı.",
+        "link": "https://g.co/kgs/DM5oCrj",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Fatih/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9735, 41.0137]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ÇİÇEK PASAJI",
+        "category": "TARİHİ ÇARŞI",
+        "description": "Geleneksel Türk çiçeklerinin ve çeşitli dükkanların bulunduğu pasaj.",
+        "link": "https://g.co/kgs/x4TEM8p",
+        "entry_fee": "ücretsiz",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Beyoğlu/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9798, 41.0158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BALAT RENKLİ EVLER",
+        "category": "EĞLENCE MERKEZİ",
+        "description": "Balat'ın renkli evleri ile ünlü tarihi ve turistik bölgesi.",
+        "link": "https://g.co/kgs/rBA9UYq",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Fatih/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.936, 41.0204]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HEYBELİADA",
+        "category": "ADA",
+        "description": "Prens Adaları'ndan biri, doğal güzellikleri ve tarihi yapıları ile ünlü.",
+        "link": "https://g.co/kgs/SG41Xmo",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Adalar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0916, 40.8738]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AĞVA",
+        "category": "PLAJ",
+        "description": "Şile'nin şirin bir beldesi, doğal güzellikleri ve sakin atmosferi ile bilinir.",
+        "link": "https://g.co/kgs/j99UMES",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Şile/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.7266, 41.1511]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EMİRGAN KORUSU",
+        "category": "KORU",
+        "description": "Emirgan'da doğal güzellikler ve yürüyüş yolları sunan bir koru.(Not:Araba ile girişlerde 45TL otopark ücreti uygulanmaktadır.)",
+        "link": "https://g.co/kgs/d731o3z",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Sarıyer/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0465, 41.107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KINALIADA",
+        "category": "ADA",
+        "description": "Prens Adaları'ndan biri, tarihi dokusu ve deniz manzaraları ile ünlü.",
+        "link": "https://g.co/kgs/qpi447y",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Adalar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0533, 40.9085]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BÜYÜKADA",
+        "category": "ADA",
+        "description": "Prens Adaları'nın en büyüğü, tarihi yapıları ve plajları ile ünlü.",
+        "link": "https://g.co/kgs/yCjXgyi",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Adalar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.1156, 40.8496]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YEREBATAN SARNICI",
+        "category": "MÜZE",
+        "description": "Bizans dönemine ait tarihi bir sarnıç, mimarisi ile dikkat çeker.",
+        "link": "https://g.co/kgs/zeYnhA2",
+        "entry_fee": "ücretli",
+        "suitability": "Aileler için uygun",
+        "location": "Fatih/İstanbul",
+            "entry_fee_adult":"350 TL",
+       "entry_fee_student":"150 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9714, 41.0088]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MINIATÜRK",
+        "category": "MÜZE",
+        "description": "Türkiye'nin önemli yapılarının minyatürlerinin sergilendiği bir park.",
+        "link": "https://g.co/kgs/o5aMWJN",
+        "entry_fee": "ücretli",
+        "suitability": "Aileler için uygun",
+        "location": "Beyoğlu/İstanbul",
+            "entry_fee_adult":"190 TL",
+       "entry_fee_student":"70 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.968, 41.0476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AYDOS ORMANI",
+        "category": "YEŞİL ALAN",
+        "description": "İstanbul'un çeşitli doğal güzellikleri sunan ormanlık alanı.(Not:Araba ile girişlerde 70TL otopark ücreti uygulanmaktadır.)",
+        "link": "https://g.co/kgs/eGPoVmk",
+        "entry_fee": "ücretli",
+        "suitability": "Aileler için uygun",
+        "location": "Kartal/İstanbul",
+            "entry_fee_adult":"25 TL",
+       "entry_fee_student":"25 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.2227, 41.0501]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KADIKÖY SANATÇILAR PARKI",
+        "category": "PARK",
+        "description": "Kadıköy'de sanat etkinlikleri ve yeşil alanlarıyla bilinen park.",
+        "link": "https://g.co/kgs/bewzcxR",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Kadıköy/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0312, 40.9895]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İBB ÇAMLICA SOSYAL TESİSLERİ",
+        "category": "SOSYAL TESİS",
+        "description": "Çamlıca Tepesi'nde konforlu bir dinlenme ve sosyal etkinlik alanı.",
+        "link": "https://tesislerimiz.ibb.istanbul/tesislerimiz-3/",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Üsküdar/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0785, 41.0262]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İBB KÜÇÜKÇEKMECE SOSYAL TESİSLERİ",
+        "category": "SOSYAL TESİS",
+        "description": "Küçükçekmece'de geniş bir yeşil alan ve sosyal etkinlik alanları sunar.",
+        "link": "https://tesislerimiz.ibb.istanbul/tesislerimiz-3/",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Küçükçekmece/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7806, 41.0048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İBB FLORYA SOSYAL TESİSLERİ",
+        "category": "SOSYAL TESİS",
+        "description": "Florya'da deniz manzaralı sosyal tesisler ve dinlenme alanları.",
+        "link": "https://tesislerimiz.ibb.istanbul/tesislerimiz-3/",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Bakırköy/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.8534, 41.0032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Çemberlitaş Hamamı",
+        "category": "TARİHİ HAMAM",
+        "description": "16. yüzyılda inşa edilmiş tarihi bir Osmanlı hamamı.",
+        "link": "https://www.cemberlitashamami.com",
+        "entry_fee": "ücretli",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Fatih/İstanbul",
+            "entry_fee_adult":"1550 TL",
+       "entry_fee_student":"1550 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.97484, 41.00793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galatasaray Hamamı",
+        "category": "TARİHİ HAMAM",
+        "description": "15. yüzyılda inşa edilen, Galatasaray Lisesi yakınlarında bulunan tarihi hamam.",
+        "link": "https://www.galatasarayhamami.com",
+        "entry_fee": "ücretli",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Beyoğlu/İstanbul",
+            "entry_fee_adult":"1500 TL",
+       "entry_fee_student":"1500 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9784, 41.01508]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cağaloğlu Hamamı",
+        "category": "TARİHİ HAMAM",
+        "description": "1741 yılında inşa edilmiş, Barok ve Rokoko tarzında bir hamam.",
+        "link": "https://www.cagalogluhamami.com",
+        "entry_fee": "ücretli",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Fatih/İstanbul",
+            "entry_fee_adult":"1468 TL",
+       "entry_fee_student":"1468 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.96839, 41.01324]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Süleymaniye Hamamı",
+        "category": "TARİHİ HAMAM",
+        "description": "Süleymaniye Camii yakınlarında, Kanuni Sultan Süleyman tarafından yaptırılan tarihi hamam.",
+        "link": "https://www.suleymaniyehamami.com",
+        "entry_fee": "ücretli",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Fatih/İstanbul",
+            "entry_fee_adult":"1835 TL",
+       "entry_fee_student":"1835 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.95891, 41.00465]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BOSPHORUS KANO KÜREK",
+        "category": "SU SPORLARI",
+        "description": "Boğazda kano,kürek,water bike gibi sporlara katılabileceğiniz kulüp.",
+        "link": "http://www.bosphoruskanokurek.com/Pages/Events",
+        "entry_fee": "ücretli",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Beykoz/İstanbul",
+            "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.067698, 41.082194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TUZLA YELKEN VE SU SPORLARI KLUBÜ",
+        "category": "SU SPORLARI",
+        "description": "Yelkenli ve birçok su sporu deneyebileceğiniz bir kulüp.",
+        "link": "https://tuzlayelkenssk.org/",
+        "entry_fee": "ücretli",
+        "suitability": "Yetişkinler için uygun",
+        "location": "Tuzla/İstanbul",
+          "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.278189, 40.824501]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VİALAND",
+        "category": "EĞLENCE MERKEZİ",
+        "description": "Adrenalin dolu aletleriyle her yaş grubunu  heyecanlandıran tematik park.",
+        "link": "https://vialand.com/",
+        "entry_fee": "ücretli",
+        "suitability": "Çocuklar için uygun",
+        "location": "Eyüpsultan/İstanbul",
+            "entry_fee_adult":"899 TL",
+       "entry_fee_student":"849 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.921938, 41.071177]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VİASEA",
+        "category": "EĞLENCE MERKEZİ",
+        "description": "Adrenalin dolu aletleriyle ve dev akvaryumuyla her yaş grubuna hitap eden tematik park.",
+        "link": "https://viaseaakvaryum.com/",
+        "entry_fee": "ücretli",
+        "suitability": "Çocuklar için uygun",
+        "location": "Tuzla/İstanbul",
+            "entry_fee_adult":"549 TL",
+       "entry_fee_student":"469-519 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.315993, 40.818096]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LEGOLAND",
+        "category": "EĞLENCE MERKEZİ",
+        "description": "lego severlerin bayılacağı,çocukların vaktin nasıl geçtiğini anlamayacağı oyun parkı.",
+        "link": "https://www.legolanddiscoverycentre.com/istanbul/",
+        "entry_fee": "ücretli",
+        "suitability": "Çocuklar için uygun",
+        "location": "Bayrampaşa/İstanbul",
+            "entry_fee_adult":"459 TL",
+       "entry_fee_student":"459 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.897184, 41.044917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kilyos Plajı",
+        "category": "PLAJ",
+        "description": "Karadeniz kıyısında geniş bir plaj alanına sahip.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/kilyos-plaji",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Sarıyer/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0379, 41.2521]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Büyükçekmece Plajı",
+        "category": "PLAJ",
+        "description": "Geniş ve temiz bir plaj.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/buyukcekmece-plaji",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Büyükçekmece/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.556, 41.0094]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caddebostan Plajı",
+        "category": "PLAJ",
+        "description": "Kadıköy'ün popüler plajlarından biri.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/caddebostan-plaji",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Kadıköy/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.059, 40.9637]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Güneş Plajı",
+        "category": "PLAJ",
+        "description": "Florya bölgesinde denize girebileceğiniz bir plaj.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/gunesli-plaji",
+        "entry_fee": "ücretli",
+        "suitability": "Aileler için uygun",
+        "location": "Bakırköy/İstanbul",
+            "entry_fee_adult":"60 TL",
+       "entry_fee_student":"30 TL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.7886, 40.9718]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sahilköy Plajı",
+        "category": "PLAJ",
+        "description": "Sahilköy'de güzel bir deniz ve plaj.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/sahilkoy-plaji",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Şile/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.4176, 41.2058]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silivri Plajı",
+        "category": "PLAJ",
+        "description": "Silivri'nin uzun plajlarıyla bilinir.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/silivri-plaji",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Silivri/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.4012, 41.0448]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Şile Plajı",
+        "category": "PLAJ",
+        "description": "Şile'nin doğal ve güzel plajlarından biri.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/sile-plaji",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Şile/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.5696, 41.1635]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yalıköy Plajı",
+        "category": "PLAJ",
+        "description": "Yalıköy'de sakin bir plaj.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/yalikoy-plaji",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Çatalca/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.3021, 41.485]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bostancı Plajı",
+        "category": "PLAJ",
+        "description": "Bostancı'da küçük ve keyifli bir plaj.",
+        "link": "https://www.istanbul.com/istanbul-plajlari/bostanci-plaji",
+        "entry_fee": "ücretsiz",
+        "suitability": "Aileler için uygun",
+        "location": "Kadıköy/İstanbul",
+       "entry_fee_adult":"-",
+       "entry_fee_student":"-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0866, 40.9548]
+      }
+    }
+  ]
+}

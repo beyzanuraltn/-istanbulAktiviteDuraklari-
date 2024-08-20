@@ -1,0 +1,465 @@
+/* Harita stili */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+@media (min-width: 1024px) {
+  /* Masaüstü için CSS */
+}
+
+/* Orta ekranlar için (örneğin, tablet) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Tablet için CSS */
+}
+
+/* Küçük ekranlar için (örneğin, telefon) */
+@media (max-width: 767px) {}
+  /* Telefon için CSS */
+  
+
+/* HTML ve Body stili */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-weight: bold;
+  background-color: var(--bg-color, #f5f5f5);
+  color: var(--text-color, #333);
+}
+
+/* Rastgele düğme stili */
+.random-button {
+  background: #65e998;
+  color: rgb(19, 1, 1);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-top: 10px;
+}
+
+/* Reset filtre butonu stili */
+#resetFiltersButton {
+  background: #f8f9fa;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#resetFiltersButton:hover {
+  background-color: #e0e0e0;
+}
+
+.resetButtonText {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(94, 88, 88);
+  color: #fcfcfc;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+bottom: 60px;
+  right: -220px;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#resetFiltersButton:hover .resetButtonText {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+/* Marquee stili */
+.marquee-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: #6e2323;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  z-index: 4;
+  text-align: center;
+}
+
+.marquee-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  animation: blink 3s step-start infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Kontrol elemanları stili */
+#controls {
+  display: none;
+}
+
+button {
+  margin: 0px;
+}
+
+/* Bilgi butonu metin stili */
+.İnfoButtontext {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(94, 88, 88);
+  color: #fcfcfc;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 110px;
+  right: -220px;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#infoButton:hover .İnfoButtontext {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.randomButtonText {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(94, 88, 88);
+  color: #fcfcfc;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120px;
+  right: -220px;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#random-Button:hover .randomButtonText {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+/* Tooltip stili */
+.tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(94, 88, 88);
+  color: #fcfcfc;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: -220px;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#directButton:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+/* Yan menü stili */
+.sidebar {
+  width: 60px;
+  height: 450px;
+  position: relative;
+  background-color: #6e2323;
+  top: 100px;
+  left: 5px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar button {
+  background: #f8f9fa;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+  background-color: #e0e0e0;
+}
+.sidebar-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  margin: 5px 0;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Butonun genişliğini sidebar'a göre ayarla */
+  box-sizing: border-box;
+}
+
+.sidebar-button .button-icon {
+  font-size: 18px; /* İkon boyutunu ayarla */
+  margin: 8px; /* İkon ve metin arasındaki boşluğu ayarla */
+ display: flex;
+ align-items: center; /* İkonu dikeyde ortala */
+ justify-content: center; /* İkonu yatayda ortala */
+}
+
+
+  #legendButton {
+    background: #f8f9fa;
+    border: none;
+display: flex;
+justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #legendButton i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.legendButtonText {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(94, 88, 88);
+  color: #fcfcfc;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 70px;
+  margin-right: 70px;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#legendButton:hover .legendButtonText {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+#legendContainer {
+  position: absolute;
+  width: auto;
+  height: 50px;
+  top: 50px;
+  left: 70px;
+  background-color: #0000009f;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 10;
+}
+
+#legendContainer ul {
+  list-style: none;
+  color: #f5dfdf;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#legendContainer ul li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 30px;
+  margin: 5px;
+}
+
+#legendContainer ul li span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+/* Takip menüsü stili */
+#followButton {
+  position: relative;
+  display: inline-block;
+}
+
+#followButtonContainer {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: -225px; /* Menünün follow butonundan sağa hizalanması */
+  background-color: rgb(94, 88, 88);
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  opacity: .8;
+  width: 200px; /* Menü genişliğini ayarlar */
+  visibility: hidden;
+  transition: opacity 0.8s ease, visibility 0.1s ease;
+}
+
+/* Follow butonuna fare ile gelindiğinde menüyü göster */
+#followButton:hover #followButtonContainer,
+#followButtonContainer:hover {
+  display: flex;
+  flex-direction: column;
+  visibility: visible;
+}
+/* Menü içindeki linklerin stili */
+#followButtonContainer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px; /* Her link arasında boşluk */
+  display: block; /* Her bir linki blok yaparak hizalamayı sağlar */
+}
+
+/* Link üzerine gelindiğinde stil */
+#followButtonContainer a:hover {
+  text-decoration: underline;
+  color: #000000;
+  opacity: 1; /* Linkin üzerine gelindiğinde görünürlüğü arttırır */
+}
+/* Takip menüsü stili */
+#filterButton {
+  position: relative;
+  display: inline-block;
+}
+
+/* Filtre menüsü stili */
+#filterContainer {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: -275px; /* Menünün filter butonundan sağa hizalanmasını sağlar */
+  background-color: rgb(94, 88, 88);
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  opacity: .8;
+  width: 250px; /* Menü genişliğini ayarlar */
+  visibility: hidden;
+  transition: opacity 0.8s ease, visibility 0.1s ease;
+}
+
+
+#filterButton:hover #filterContainer,
+#filterContainer:hover {
+  display: flex;
+  flex-direction: column;
+  visibility: visible;
+}
+
+/* Tooltip stili */
+.tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(94, 88, 88);
+  color: #fcfcfc;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: -220px;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+#directButton:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.8;
+}
+.locationButtonText{
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(94, 88, 88);
+  color: #fcfcfc;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  bottom: 15px;
+  right: -220px;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+#locationButton:hover .locationButtonText{
+  visibility: visible;
+  opacity: 0.8;
+}
+/* Zoom Controls CSS */
+.zoomControls {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.zoom-button {
+  background-color: #fff;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 2px 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.zoom-button:hover {
+  background-color: #f5dfdf;
+}

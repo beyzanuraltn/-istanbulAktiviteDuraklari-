@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İSTANBULAKTİVİTEDURAKLARI3</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+<body>
+  <div class="marquee-container">
+    <div class="marquee-text">İSTANBUL AKTİVİTE DURAKLARINI KEŞFEDİN!</div>
+  </div>
+  <div id="zoomControls" class="zoomControls">
+    <button id="zoomInButton" class="zoom-button"><i class="bi bi-plus-circle"></i></button>
+    <button id="zoomOutButton" class="zoom-button"><i class="bi bi-dash-circle"></i></button>
+  </div>
+  <div class="sidebar">
+    <button id="directButton">
+      <i class="bi bi-google-play"></i>
+      <span class="tooltiptext">İstanbul Senin Uygulamasını İndirin.</span>
+    </button>
+    <div id="legendButton" class="sidebar-button">
+      <i class="bi bi-palette-fill" class="button-icon"></i>
+      <span class="legendButtonText">Lejantı görmek için tıklayınız.</span>
+    </div>
+    <div id="legendContainer" class="hidden">
+      <ul>
+        <li><span style="background-color: #002b0c;"></span>Yeşil Alan</li>
+        <li><span style="background-color: #414700;"></span>Tiyatro Merkezi</li>
+        <li><span style="background-color: #ff474f;"></span>Konser Merkezi</li>
+        <li><span style="background-color: #ffbf51;"></span>Müze</li>
+        <li><span style="background-color: #f287e3;"></span>Koru</li>
+        <li><span style="background-color: #1a66af;"></span>Park</li>
+        <li><span style="background-color: #7b1e3a;"></span>Tarihi Çarşı</li>
+        <li><span style="background-color: #750500;"></span>Su Sporları</li>
+        <li><span style="background-color: #559e9c;"></span>Adalar</li>
+        <li><span style="background-color: #7900af;"></span>Eğlence Merkezi</li>
+        <li><span style="background-color: #88c76c;"></span>Tarihi Hamamlar</li>
+        <li><span style="background-color: #ff825b;"></span>Plajlar</li>
+        <li><span style="background-color: #8c686e;"></span>İBB Sosyal Tesis</li>
+      </ul>
+    </div>
+    <button id="infoButton">
+      <i class="bi bi-info-circle"></i>
+      <span class="İnfoButtontext">Daha fazla bilgi için İstanbul Gezi Rehberine göz atmadan geçmeyin.</span>
+    </button>
+
+    
+    <button id="followButton">
+      <i class="bi bi-people-fill"></i>
+      <div id="followButtonContainer" class="hidden">
+        <a href="https://www.instagram.com/istanbulbuyuksehirbld/" target="_blank">
+          <i class="bi bi-instagram"></i> İnstagram Hesabımız
+        </a>
+        <a href="https://x.com/istanbulbld" target="_blank">
+          <i class="bi bi-twitter"></i> X Hesabımız
+        </a>
+        <a href="https://www.youtube.com/user/ibbvideo" target="_blank">
+          <i class="bi bi-youtube"></i> Youtube Hesabımız
+        </a>
+        <a href="https://www.facebook.com/istanbulbuyuksehirbld" target="_blank">
+          <i class="bi bi-facebook"></i> Facebook Hesabımız
+        </a>
+        <a href="https://ibb.istanbul/" target="_blank">
+          <i class="bi bi-globe"></i> Web Sitemiz
+        </a>
+      </div>
+    </button>
+    <button id="filterButton">
+      <i class="bi bi-funnel-fill"></i>
+      <div id="filterContainer" class="hidden">
+        <label for="categoryFilter"><i class="bi bi-funnel-fill"></i>Kategori:</label>
+        <select id="categoryFilter">
+          <option value="all">Tümü</option>
+          <option value="YEŞİL ALAN">Yeşil Alan</option>
+          <option value="TİYATRO MERKEZİ">Tiyatro Merkezi</option>
+          <option value="KONSER MERKEZİ">Konser Merkezi</option>
+          <option value="MÜZE">Müze</option>
+          <option value="KORU">Koru</option>
+          <option value="PARK">Park</option>
+          <option value="TARİHİ ÇARŞI">Tarihi Çarşı</option>
+          <option value="SU SPORLARI">Su Sporları</option>
+          <option value="ADA">Adalar</option>
+          <option value="EĞLENCE MERKEZİ">Eğlence Merkezi</option>
+          <option value="SOSYAL TESİS">İBB Sosyal Tesis</option>
+          <option value="TARİHİ HAMAM">Tarihi Hamamlar</option>
+          <option value="PLAJ">Plajlar</option>
+        </select>
+        <label for="locationFilter"><i class="bi bi-geo-alt-fill"></i>İlçe:</label>
+        <select id="locationFilter">
+          <option value="all">Tümü</option>
+          <option value="Sarıyer/İstanbul">Sarıyer/İstanbul</option>
+          <option value="Kadıköy/İstanbul">Kadıköy/İstanbul</option>
+          <option value="Adalar/İstanbul">Adalar/İstanbul</option>
+          <option value="Beykoz/İstanbul">Beykoz/İstanbul</option>
+          <option value="Şişli/İstanbul">Şişli/İstanbul</option>
+          <option value="Şile/İstanbul">Şile/İstanbul</option>
+          <option value="Üsküdar/İstanbul">Üsküdar/İstanbul</option>
+          <option value="Fatih/İstanbul">Fatih/İstanbul</option>
+          <option value="Bakırköy/İstanbul">Bakırköy/İstanbul</option>
+          <option value="Beşiktaş/İstanbul">Beşiktaş/İstanbul</option>
+          <option value="Küçükçekmece/İstanbul">Küçükçekmece/İstanbul</option>
+          <option value="Beyoğlu/İstanbul">Beyoğlu/İstanbul</option>
+          <option value="Tuzla/İstanbul">Tuzla/İstanbul</option>
+          <option value="Çatalca/İstanbul">Çatalca/İstanbul</option>
+          <option value="Silivri/İstanbul">Silivri/İstanbul</option>          
+        </select>
+        <label for="feeFilter"><i class="bi bi-currency-dollar"></i>Giriş Ücreti:</label>
+        <select id="feeFilter">
+          <option value="all">Tümü</option>
+          <option value="ücretsiz">Ücretsiz</option>
+          <option value="ücretli">Ücretli</option>
+          <option value="ücretli gösteriler">Ücretli Gösteriler</option>
+        </select>
+        <label for="suitabilityFilter"><i class="bi bi-check2-circle"></i>Uygunluk:</label>
+        <select id="suitabilityFilter" class="select">
+          <option value="all">Tümü</option>
+          <option value="Çocuklar için uygun">Çocuklar için uygun</option>
+          <option value="Aileler için uygun">Aileler için uygun</option>
+          <option value="Yetişkinler için uygun">Yetişkinler için uygun</option>
+        </select>
+      </div>
+    </button>
+    <button id="random-Button">
+      <i class="bi bi-question-circle-fill"></i>
+      <span class="randomButtonText">Rastgele bir yer seçmek için tıklayınız.</span>
+    </button>
+    <button id="resetFiltersButton">
+      <i class="bi bi-arrow-clockwise"></i>
+      <span class="resetButtonText">Filtreleri Sıfırla</span>
+    </button>
+    <button id="locationButton">
+      <i class="bi bi-crosshair2"></i>
+      <span class="locationButtonText">Konumumu Göster</span>
+    </button>
+  </div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+  <script src="./script.js"></script>
+</body>
